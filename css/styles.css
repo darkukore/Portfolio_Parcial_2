@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.logo {
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 28.5px;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  float: right;
+  padding-top: 26.5px;
+}
+
+nav a {
+  color: #000;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
