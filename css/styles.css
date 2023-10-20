@@ -29,3 +29,31 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+#hero {
+  margin-top: 90px;
+}
+
+.hero_subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 90px;
+}
+
+.hero_title {
+  font-size: 100px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hero_text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.hero_image {
+  float: right;
+  margin-right: 35px;
+}
