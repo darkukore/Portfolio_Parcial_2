@@ -57,3 +57,13 @@ nav a:hover {
   float: right;
   margin-right: 35px;
 }
+
+#logos
+
+.logos {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  margin-left: 85px;
+  margin-right: 25px;
+  -ms-grid-row-align: center;
+}
