@@ -58,12 +58,13 @@ nav a:hover {
   margin-right: 35px;
 }
 
-#logos
+.container-fluid {
+  width: 1280px;
+}
 
 .logos {
-  margin-top: 130px;
+  margin-top: 150px;
   margin-bottom: 100px;
-  margin-left: 85px;
-  margin-right: 25px;
-  -ms-grid-row-align: center;
+  margin-left: 55px;
+  margin-right: 51px;
 }
