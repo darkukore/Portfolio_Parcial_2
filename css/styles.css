@@ -68,3 +68,24 @@ nav a:hover {
   margin-left: 55px;
   margin-right: 51px;
 }
+
+#skills {
+  margin-top: 100px;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill h3 {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.skill p {
+  font-size: 18px;
+  margin-top: 22px;
+  text-align: center;
+}
