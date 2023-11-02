@@ -65,6 +65,26 @@ nav a:hover {
   align-items: center;
 }
 
+#skills {
+  margin-top: 100px;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill h3 {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.skill p {
+  font-size: 18px;
+  margin-top: 22px;
+  text-align: center;
+}
 
 @media (min-width: 320px) and (max-width: 767px) {
   .logo {
