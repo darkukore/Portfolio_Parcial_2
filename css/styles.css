@@ -58,15 +58,11 @@ nav a:hover {
   margin-right: 35px;
 }
 
-.container-fluid {
-  width: 1280px;
-}
-
 .logos {
+  display: flex;
+  justify-content: space-between;
   margin-top: 150px;
-  margin-bottom: 100px;
-  margin-left: 55px;
-  margin-right: 51px;
+  align-items: center;
 }
 
 #skills {
@@ -89,3 +85,70 @@ nav a:hover {
   margin-top: 22px;
   text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  nav ul {
+    float: none;
+    justify-content: space-between;
+    padding-left: 0;
+  }
+
+  nav ul a {
+    font-size: 22px;
+  }
+
+  #hero {
+    margin-top: 0;
+  }
+
+  #hero h2,
+  #hero h1,
+  #hero p {
+    text-align: center;
+  }
+
+  #hero h2 {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  #hero h1 {
+    font-size: 80px;
+  }
+
+  #hero p {
+    font-size: 22px;
+  }
+
+  #hero br {
+    display: none;
+  }
+
+  .hero_image {
+    float: none;
+    width: 95%;
+    margin: auto;
+    display: block;
+  }
+
+  .logos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+
+  .logos img {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1279px) {}
