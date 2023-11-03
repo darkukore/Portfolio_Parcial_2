@@ -66,11 +66,12 @@ nav a:hover {
 }
 
 #skills {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .skill{
   display: flex;
+  margin-top: 100px;
   align-items: center;
   flex-direction: column;
 }
@@ -84,6 +85,39 @@ nav a:hover {
   font-size: 18px;
   margin-top: 22px;
   text-align: center;
+}
+
+.text-gallery{
+  text-align: left;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-gallery-2{
+  margin-bottom: 50px;
+  word-wrap: break-word;
+}
+
+#gallery{
+  margin-top: 175px;
+  margin-bottom: 45px;
+}
+
+.gallery_1{
+  text-align: center;
+  line-height: 2;
+  font-size: 35px;
+  font-weight: 600;
+} 
+.gallery-img{
+  padding-top: 40px;
+  border-radius: 50px;
+}
+
+.last-img-gallery{
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
