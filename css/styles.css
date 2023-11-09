@@ -63,10 +63,12 @@ nav a:hover {
   justify-content: space-between;
   margin-top: 150px;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 #skills {
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .skill{
@@ -88,6 +90,7 @@ nav a:hover {
 }
 
 .text-gallery{
+  padding-left: auto;
   text-align: left;
   margin-top: 15px;
   font-size: 18px;
@@ -99,9 +102,9 @@ nav a:hover {
   word-wrap: break-word;
 }
 
-#gallery{
-  margin-top: 175px;
-  margin-bottom: 45px;
+#gallerytext{
+  margin-top: 150px;
+  text-align: center;
 }
 
 .gallery_1{
@@ -110,14 +113,57 @@ nav a:hover {
   font-size: 35px;
   font-weight: 600;
 } 
+
 .gallery-img{
-  padding-top: 40px;
-  border-radius: 50px;
+  padding-left: auto;
+  padding-top: 41px;
 }
 
 .last-img-gallery{
   width: 100%;
   height: auto;
+}
+
+#clients{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#clients_cont{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cuadrado{
+  width: 330px;
+  height: 400px;
+  background-color: #f3f3f3;
+  margin-top: 28px;
+}
+
+.client_text{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.fotopiniones{
+  margin-top: 54px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.star{
+  margin-top: 35px;
+}
+
+.nombreopi{
+  font-size: 18px;
+  margin-left: 88px;
 }
 
 .footer{
@@ -130,25 +176,26 @@ nav a:hover {
     line-height: 27px;
     float:left ;
     padding-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
   }
   
   .footer_coll_2 {
     margin-top: 8px;
-    float:right;
-    margin-right: 10%;
+    float: left;
+    align-items: center;
     margin-bottom: 30px;
   }
   
   .input_s{
-    width: 400px;
-    background-color: #f3f3f3;
+    width: 380px;
+    height: 60px;
     border-style: none;
     margin: 10px;
   }
   
   .input_l{
-    width: 400px;
-    background-color: #f3f3f3;
+    width: 380px;
     border-style: none;
     margin: 10px;
   }
@@ -167,13 +214,13 @@ nav a:hover {
     margin-bottom: 20px;
     padding-bottom: 100px;
   }
-  
+
   .button{
     color: #f3f3f3;
   }
   
   .button_box{
-    width: 300px;
+    width: 320px;
     height: 70px;
     background-color: #2D2D2D;
     display: table-cell;
