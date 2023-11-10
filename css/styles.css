@@ -90,8 +90,8 @@ nav a:hover {
 }
 
 .text-gallery{
-  padding-left: auto;
   text-align: left;
+  padding-left: 50px;
   margin-top: 15px;
   font-size: 18px;
   line-height: 1.6;
@@ -112,21 +112,21 @@ nav a:hover {
   line-height: 2;
   font-size: 35px;
   font-weight: 600;
+  margin-bottom: 40px;
 } 
 
 .gallery-img{
-  padding-left: auto;
-  padding-top: 41px;
+margin: 0 auto 27px;
+max-width: 90%;
+height: auto;
+display: block;
 }
 
-.last-img-gallery{
-  width: 100%;
-  height: auto;
-}
 
 #clients{
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3px;
+  padding-top: 136px;
 }
 
 #clients_cont{
@@ -167,7 +167,7 @@ nav a:hover {
 }
 
 .footer{
-    margin-top: 55px;
+    margin-top: 136px;
     height: 350px;
     align-items: center;
   }
