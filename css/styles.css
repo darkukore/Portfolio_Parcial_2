@@ -170,62 +170,52 @@ display: block;
     margin-top: 136px;
     height: 350px;
     align-items: center;
+    display: block;
   }
   
-  .footer_coll_1 {
-    line-height: 27px;
-    float:left ;
-    padding-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 50px;
+  .text_footer{
+    margin-bottom: 25px;
   }
-  
-  .footer_coll_2 {
-    margin-top: 8px;
-    float: left;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
+
   .input_s{
     width: 380px;
     height: 60px;
-    border-style: none;
     margin: 10px;
   }
   
   .input_l{
     width: 380px;
-    border-style: none;
     margin: 10px;
   }
   
   .input_box_s{
     width: 100%;
+    border: none;
     height: 50px;
     background-color: #f3f3f3;
     margin-bottom: 10px;
+    padding: 10px 20px;
   }
   
   .input_box_l{
     width: 100%;
+    border: none;
     height: 155px;
     background-color: #f3f3f3;
     margin-bottom: 20px;
-    padding-bottom: 100px;
-  }
-
-  .button{
-    color: #f3f3f3;
+    padding: 10px 20px;
   }
   
   .button_box{
-    width: 320px;
+    min-width: 100%;
+    max-width: 767px;
     height: 70px;
     background-color: #2D2D2D;
     display: table-cell;
+    color: #f3f3f3;
     text-align: center;
     vertical-align: middle;
+    margin-bottom: 30px;
   }
 
 @media (min-width: 320px) and (max-width: 767px) {
