@@ -218,12 +218,12 @@ display: block;
     margin-bottom: 30px;
   }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 575px) {
   .logo {
     font-size: 32px;
     text-align: center;
   }
-
+  
   nav ul {
     float: none;
     justify-content: space-between;
@@ -278,9 +278,29 @@ display: block;
   .logos img {
     display: block;
     margin: auto;
+
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .hero_image{
+    max-width: 230px;
+    margin-top: 125px;
+  }
+  .hero_subtitle{
+    max-width: 80%;
+  }
+  .hero_text{
+    max-width: 80%;
+  }
+  .hero_title{
+    font-size: 52px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {}
-
-@media (min-width: 992px) and (max-width: 1279px) {}
+@media (min-width: 992px) and (max-width: 1279px) {
+  .hero_title{
+    font-size: 95px;
+  }
+}
