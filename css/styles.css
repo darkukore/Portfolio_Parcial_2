@@ -265,7 +265,7 @@ display: block;
     float: none;
     width: 95%;
     margin: auto;
-    display: block;
+    display: none;
   }
 
   .logos {
